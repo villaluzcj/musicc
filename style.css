@@ -1,0 +1,49 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  font-family: Arial, sans-serif;
+}
+
+.player {
+  width: 300px;
+  background: #111;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.cover {
+  width: 100%;
+  border-radius: 15px;
+}
+
+h2 {
+  margin: 10px 0 5px;
+}
+
+p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+#progress {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  color: #ff4d6d;
+}

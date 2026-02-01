@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="player">
+  <img src="cover.jpg" class="cover">
+
+  <h2 id="title">Take All The Love</h2>
+  <p id="artist">Arthur Nery</p>
+
+  <audio id="audio" src="music/song.mp3"></audio>
+
+  <input type="range" id="progress" value="0">
+
+  <div class="controls">
+    <button onclick="prevSong()">⏮</button>
+    <button onclick="playPause()">▶️</button>
+    <button onclick="nextSong()">⏭</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
